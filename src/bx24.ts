@@ -35,6 +35,11 @@ class BX24 {
     return resultPromise;
   }
 
+  public async getLang(): Promise<string|undefined> {
+    await this.getAuth();
+    return this._params.LANG;
+  }
+
   private _checkAuth(): boolean {
     const authExpires = this._params.getAuthExpires();
     const check =
