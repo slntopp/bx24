@@ -35,8 +35,8 @@ class Params {
       REFRESH_TOKEN: this.REFRESH_ID,
     };
   }
-  public getLang(): string {
-    return this.LANG ?? 'en';
+  public getLang(): string | undefined {
+    return this.LANG;
   }
 
 }
