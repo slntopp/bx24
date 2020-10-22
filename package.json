@@ -7,12 +7,8 @@
   "description": "With this package, you can use promise in applications for Bitrix24, that are hosted in the Bitrix cloud",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eustatos/bx24.git"
+    "url": "https://github.com/slntopp/bx24.git"
   },
-  "bugs": {
-    "url": "https://github.com/eustatos/bx24/issues"
-  },
-  "homepage": "https://eustatos.github.io/bx24",
   "author": {
     "name": "Aleksandr Astashkin",
     "email": "astashinav@gmail.com"
